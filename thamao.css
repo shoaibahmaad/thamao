@@ -1,0 +1,365 @@
+/*font*/
+
+/*@font-face {
+	font-family: 'Kalpurush';
+	src: url('../font/Kalpurush.eot');
+	src: url('../font/Kalpurush.eot?#iefix') format('embedded-opentype'),
+	url('../font/Kalpurush.woff') format('woff'),
+	url('../font/Kalpurush.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}*/
+
+
+@font-face {
+    font-family: 'Kalpurush';
+    src: url(font/Kalpurush.woff);
+}
+
+/*body*/
+
+body {
+	font-family:'Kalpurush';
+}
+
+/*navbar*/
+
+/*.asd {
+	display: flex;
+	justify-content: center;
+}*/
+
+
+/*.qwe {
+	display: flex;
+	justify-content: end;
+}*/
+.navbar {
+	font-size: 15px;
+	padding: 5px;
+	/*margin-top: -10px;*/
+	font-weight: 800;
+	margin-bottom: 0px;
+}
+
+.navbar-brand {
+	float:left;
+	height: 35px;
+	width: 85px;
+	padding:0 15px 5px;
+	text-align: center;
+	display: block;
+	margin-top:10px ;
+	display: flex;
+	justify-content: center;
+}
+
+.nav-h1 {
+	color: #5F5F5F;
+	padding: 15px;
+}
+
+.nav-h1:hover {
+	color: #000;
+}
+
+.nav-h2 {
+	color: #fff;
+	border-radius: 12px;
+	background-color: #486577;
+	padding:15px !important;
+	margin-top: 10px;
+
+}
+
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    text-decoration: none;
+    background-color: #102129;
+    color: white;
+}
+
+
+/*banner*/
+
+#banner {
+	background-image: url(pic/angle.png);
+	height: 550px;
+}
+
+.banner {
+	
+	overflow: hidden;
+}
+
+.banner-heading {
+	font-size: 70px;
+	color:white;
+	text-align: center;
+	margin-top: 100px;
+	font-weight: 400;
+}
+
+.banner-caption {
+	color: white;
+	text-align: center;
+}
+
+.banner-caption h5 {
+	font-size: 20
+}
+
+.banner-caption a {
+	color:#fff;
+	font-weight: 800;
+}
+
+.banner-caption a:hover {
+
+}
+
+.box1 {
+	height:45px;
+	width:130px;
+	border-radius: 12px;
+	font-size: 17px;
+	font-weight: 200;
+	text-align: right;
+	/*border:2px solid white;*/
+}
+
+.inside-box {
+	height:35px;
+	width:70px;
+	border-radius: 12px;
+	font-size: 17px;
+	font-weight: 200;
+	text-align: center;
+	border:2px solid white;
+}
+
+.box2 {
+	height:45px;
+	width:130px;
+	border-radius: 12px;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+	color: white;
+	border:2px solid white;
+	background-color: #2D6172;
+
+}
+
+.middle-box {
+	height:45px;
+	width: 180px;
+	border-radius: 12px;
+
+
+}
+
+/*thamao-kivabe	*/
+
+
+.p1 {
+	font-size: 25px;
+	margin-top: 22px;
+}	
+
+.p2 {
+	font-size: 18px;;
+}
+
+
+/*black-mail*/
+
+.banner-margin {
+	margin-top: 10px;
+	margin-bottom: 80px;
+}
+
+.banner-margin h2 {
+	margin-top: 35px;
+}
+
+.black-mail-margin {
+	margin-top: 40px;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.new-banner {
+	margin-top: 100px;
+}
+
+.new-banner h1 {
+	font-size: 40px ;
+}
+.new-banner p {
+	color: #535353;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 400;
+}
+
+.owl {
+	border:1px solid #E5E5E5;
+	padding: 20px;
+	margin-top: 40px;
+}
+
+.gallery {
+	width:80%;
+}
+
+#Carousel {
+	border:none;
+}
+
+
+/*another-banner*/
+
+.picture-banner {
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+.another-banner {
+	margin-top: 130px;
+	color: white;
+	text-align: right;
+}
+
+.another-banner h1 {
+	font-size: 40px; 
+	font-weight:800;
+}
+
+.another-banner p {
+	color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.group-pic {
+	margin-top: 90px;
+	text-align: center;
+}
+
+.threat {
+	margin-top: 15px;
+}
+
+.emoji {
+	margin-top: 15px;
+	text-align: center;	
+	border-radius: 30px;
+
+}
+
+			/*modal*/
+
+.modal {
+	background:#00000061;
+}	
+
+.close {
+	margin-right: 10px;
+	font-size: 30px;
+}
+	 
+
+
+/*footer*/
+
+footer {
+	background: linear-gradient(to right,#135D7F,#5B5065,#924752);
+	height: 700px;
+	margin-top: 40px;
+	/*overflow: hidden;*/
+}
+   
+.lastone {
+	background-color: #F7F7F7;
+	color: grey;
+	display:flex;
+	justify-content: center;
+	font-weight: 500;
+	padding: 5px 0 0 25px;
+	
+}
+.for-last-margin {
+	margin-top: 45px;
+}
+
+.a {
+	color: white;
+}
+
+@media (max-width:1000px ) {
+
+	footer {
+		height: 1200px;
+		text-align: center;
+	}
+
+	.another-banner {
+		text-align: center;
+	}
+
+	.new-banner {
+		text-align: center;
+		margin-bottom: 40px;
+	}
+
+	.container {
+		padding-right: 20px;
+		padding-left:20px;
+	}
+
+	.banner-heading {
+	font-size: 40px;
+	color:white;
+	text-align: center;
+	margin-top: 85px;
+	}
+	.new-banner h1 {
+		font-size: 40px;
+	}
+
+	.new-banner {
+		margin-top: 20px;
+	}
+
+	#mynavbar{
+		width:100%;	
+	}
+
+	.group-pic {
+		height: auto;
+		width: auto;
+		text-align: center;
+	}
+
+	.gallery {
+		height: auto;
+		width: auto;
+		text-align: center;
+	}
+}
+
+@media (max-width:800px) {
+
+	.phone-demo {
+		text-align: center;
+	}
+	.emoji {
+		text-align: center;
+		align-items: center;
+	}
+	.emoji2 {
+		text-align: center;
+		align-items: center;
+	}
+}
